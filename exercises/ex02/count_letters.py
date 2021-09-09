@@ -4,5 +4,6 @@ __author__ = "7303-89910"
 
 
 # Begin your solution here...
-letter: (input("What letter do you want to search for? "))
-ltr: (input("Enter a word: "))
+(input("What letter do you want to search for? "))
+enter = (input("Enter a word: "))
+
