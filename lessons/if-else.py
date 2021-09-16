@@ -1,6 +1,6 @@
 """Challenge Question #1."""
 
-
+choice = 15
 
 # print A if choice is < 25
 # print B if choice >= 25 and < 50 
