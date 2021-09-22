@@ -10,3 +10,4 @@ def my_max(a: int, b: int) -> int:
 
 print(my_max(10 + 1, 10))
 result: int = my_max(10+1,10)
+

@@ -4,7 +4,7 @@ __author__ = "730389910"
 
 
 word: str = (input("Enter a word: "))
-dup: bool = false
+#dup: bool = false
 i: int = 0
 
 while i < len(word):
