@@ -4,6 +4,7 @@ __author__ = "730389910"
 
 # Define your functions below
 
+
 def only_evens(start: list[int]) -> list[int]:
     """Returns the even numbers in a sequence."""
     i: int = 0
@@ -13,6 +14,7 @@ def only_evens(start: list[int]) -> list[int]:
             evens.append(start[i])
         i += 1
     return evens
+
 
 def sub(sequence: list[int], start: int, end: int) -> list[int]:
     """Returns a portion of a list defined by parameters."""
@@ -26,6 +28,7 @@ def sub(sequence: list[int], start: int, end: int) -> list[int]:
         start += 1
     return final
 
+
 def concat(first: list[int], second: list[int]) -> list[int]:
     """Concats one list onto another list."""
     i: int = 0
@@ -33,14 +36,13 @@ def concat(first: list[int], second: list[int]) -> list[int]:
     final: list[int] = []
     while i < len(first):
         final.append(first[i])
-    i += 1
-    print(final)
+        i += 1
     while f < len(second):
-        final.append(second[i])
-    f += 1
-    print(final)
+        final.append(second[f])
+        f += 1
     return final
 
-a_list = [1, 2, 3]
-b_list = [4, 5, 6]
-print(concat(a_list, b_list))
+
+d_list = [1, 2, 3]
+e_list = [4, 5, 6]
+print(concat(d_list, e_list))
