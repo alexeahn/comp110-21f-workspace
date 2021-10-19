@@ -10,8 +10,9 @@ __author__ = "123456789"
 def invert(first: dict[str, str]) -> dict[str, str]:
     """Inverts a dictionary."""
     i: int = 0
-    switch = dict()
-    while len(first) 
+    switch: dict[str, str] = {}
+    for key in first:
+        switch[key] = [key] 
 
 
 #favorite color: sort different colors based on what people like the most
