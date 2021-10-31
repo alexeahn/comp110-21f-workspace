@@ -48,4 +48,4 @@ print(schools)
 
 # Example looping over the keys of a dict
 for key in schools:
-    print(f"key: {schools} -> Value: {schools[school]}")
+    print(f"key: {schools} -> Value: {schools[schools]}")
