@@ -15,7 +15,7 @@ def hello(name: Union[str, int, float] = "World") -> str:
 
 
 #Calling Hello with no argument to use default value
-print(hello())
+#print(hello())
 #Calling Hello with an argument overrides the default parameter
 print(hello("Alex"))
 print(hello(110))

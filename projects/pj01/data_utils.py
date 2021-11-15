@@ -86,7 +86,14 @@ def concat(entry_one: dict[str, list[str]], entry_two: dict[str, list[str]]) -> 
 def count(freq: list[int]) -> dict[str, int]:
     """Counts the frequency of values given a category."""
     result: dict[str, int] = {}
+    i: int = 0
 
+    while i < len(freq):
+        if freq[i] in result:
+            result[freq[i]] += 1
+        else:
+            result[freq[i]] = 0
+
+        i += 1
     
-
     return result
